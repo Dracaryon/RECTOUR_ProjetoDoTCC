@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaHistoriasDetalheActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="406dp"
+        android:layout_height="216dp"
+        android:background="@drawable/hist_recife_1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A HISTÓRIA DO FREVO"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="343dp"
+        android:layout_height="101dp"
+        android:text="O frevo é um ritmo musical e uma dança brasileira com origem no estado de Pernambuco. Sua música baseia-se na fusão de gêneros como marcha, maxixe, dobrado e polca, e sua dança foi influenciada pela capoeira. Foi declarado Patrimônio Imaterial da Humanidade pela UNESCO no ano de 2012. "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="343dp"
+        android:layout_height="101dp"
+        android:text="De origem urbana, surgiu nas ruas do Recife nos fins do século XIX e começo do século XX. O frevo nasceu das marchas, maxixes e dobrados; as bandas militares do século passado teriam dado sua contribuição na formação do frevo, bem como as quadrilhas de origem européia."
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="394dp" />
+</android.support.constraint.ConstraintLayout>
