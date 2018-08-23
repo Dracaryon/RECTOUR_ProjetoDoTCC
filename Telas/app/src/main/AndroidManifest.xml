@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TelaMainActivity">
+        <activity
+            android:name=".Telalogin"
+            android:theme="@style/APPThemeNOActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Telalogin" />
+        <activity android:name=".TelaMainActivity" />
         <activity android:name=".Mapa_Dexcricao" />
         <activity android:name=".Tela_MainActivity" />
         <activity android:name=".TelaHistorias" />
