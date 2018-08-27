@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#303f9f</color>
     <color name="colorAccent">#FF4081</color>
     <color name="tela_login_azul">#958dbfca</color>
+    <color name="laranja_tela_main">#bee5d676</color>
+    <color name="cor_barra_notificacao_main">#ead86e</color>
 </resources>
