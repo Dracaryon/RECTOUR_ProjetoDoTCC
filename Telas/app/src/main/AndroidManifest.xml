@@ -9,20 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".TelaMainActivity"
-            android:theme="@style/APPThemeNOActionBar">
+
+        <activity android:name=".Telalogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Telalogin" />
-        <activity android:name=".Mapa_Dexcricao" />
+
+        <activity
+            android:name=".Mapa_Dexcricao"
+            android:theme="@style/AppTheme"
+        />
+
         <activity android:name=".Tela_MainActivity" />
-        <activity android:name=".TelaHistorias" />
-        <activity android:name=".TelaHistoriasDetalheActivity"></activity>
+
+        <activity
+            android:name=".TelaHistorias"
+            android:theme="@style/TelaHistorias"
+        />
+        <activity android:name=".TelaHistoriasDetalheActivity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

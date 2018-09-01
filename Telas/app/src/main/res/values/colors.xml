@@ -6,4 +6,6 @@
     <color name="tela_login_azul">#958dbfca</color>
     <color name="laranja_tela_main">#bee5d676</color>
     <color name="cor_barra_notificacao_main">#ead86e</color>
+    <color name="azul_tela_historias">#bea3badb</color>
+    <color name="barra_notificacao_azul_tela_historias">#f56f94d9</color>
 </resources>

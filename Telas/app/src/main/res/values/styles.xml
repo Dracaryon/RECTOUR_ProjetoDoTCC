@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -8,9 +8,14 @@
         <item name="colorPrimaryDark">@color/cor_barra_notificacao_main</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-        parent="Theme.AppCompat
     </style>
-    <style name="APPThemeNOActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <style name="TelaHistorias" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/barra_notificacao_azul_tela_historias</item>
+        <item name="colorPrimaryDark">@color/barra_notificacao_azul_tela_historias</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
     </style>
 
 
